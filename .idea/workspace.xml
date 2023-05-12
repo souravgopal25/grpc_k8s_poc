@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18ea5696-8e19-4a1d-9c9a-b5eab670353f" name="Changes" comment="Deleting project">
-      <change afterPath="$PROJECT_DIR$/grpc_eureka_zuul_poc/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_eureka_zuul_poc/proto/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreetService/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/GreetService/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreetService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GreetService/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +35,7 @@
     </option>
   </component>
   <component name="ProjectId" id="2PVuieqNHDY8AZ1PShSU3X3uujJ" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -47,10 +48,11 @@
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "14",
-    "last_opened_file_path": "C:/Users/ASUS/IdeaProjects/grpc_k8s_poc/grpc_eureka_zuul_poc/ServiceDiscovery",
+    "last_opened_file_path": "/home/gksourav/IdeaProjects/grpc_k8s_poc",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -150,6 +152,8 @@
       <workItem from="1683741025708" duration="1000000" />
       <workItem from="1683777983429" duration="345000" />
       <workItem from="1683784065449" duration="587000" />
+      <workItem from="1683874743839" duration="68000" />
+      <workItem from="1683880296904" duration="163000" />
     </task>
     <task id="LOCAL-00001" summary="Deleting project">
       <created>1683554795655</created>
