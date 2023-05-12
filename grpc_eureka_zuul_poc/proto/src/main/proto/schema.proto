@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+package com.example;
+option java_multiple_files = true;
+
+message Operands{
+  float operand_1 = 1;
+  float operand_2 = 2;
+}
+
+message Result{
+  float result = 1;
+}
+
+service AdditionService{
+  rpc getSum(Operands)returns(Result){}
+}
+
+service SubstractionService{
+  rpc getDifference(Operands)returns(Result){}
+}
+
+service DivisionService{
+  rpc getQuotient(Operands)returns(Result){}
+}
+
+service MultiplicationService{
+  rpc getProduct(Operands)returns(Result){}
+}

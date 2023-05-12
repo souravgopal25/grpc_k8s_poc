@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="grpcClient" />
+        <module name="proto" />
+        <module name="AdditionService" />
+        <module name="SubstractService" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="greeting-parent" target="1.5" />
+      <module name="grpc-spring-boot-example" target="17" />
+      <module name="servicediscovery" target="17" />
+      <module name="serviceDiscovery" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="AdditionService" options="-parameters" />
+      <module name="SubstractService" options="-parameters" />
+      <module name="grpc-spring-boot-example" options="-parameters" />
+      <module name="grpcClient" options="-parameters" />
+      <module name="serviceDiscovery" options="-parameters" />
+      <module name="servicediscovery" options="-parameters" />
+    </option>
+  </component>
+</project>
